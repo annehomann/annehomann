@@ -1,0 +1,168 @@
+ß<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- CONTENT SECURITY POLICY -->
+        <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' img/;
+        img-src 'self' http://www.w3.org; 
+        style-src 'self' https://stackpath.bootstrapcdn.com https://fonts.gstatic.com https://fonts.google.com https://fonts.googleapis.com https://*.fontawesome.com/;
+        font-src 'self' https://fonts.gstatic.com https://fonts.google.com https://fonts.googleapis.com https://*.fontawesome.com/;
+        script-src 'self' https://code.jquery.com/ https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://fonts.google.com https://*.fontawesome.com/;
+        ">
+        
+        <title>Anne Homann Portfolio Site</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/b542b19b93.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo" src="img/logo.svg" alt="Logo for Anne Homann">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="photography.html">Photography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:annehomann@gmail.com" target="_blank"">Contact me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        <section class="container">
+            <div class="main">
+                <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Blog</h1>
+                <hr class="mt-2 mb-5">
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- BLOG POST FIVE - LATEST POST -->
+                        <div class="card mb-4">
+                            <img class="card-img-top img-fluid blog-pic" src="img/blog-01.jpeg" alt="illustration of a ninja">
+                            <div class="card-body">
+                                <h2 class="card-title">Becoming a CSS Grid Ninja</h2>
+                                <p class="card-text">These days, most developers know CSS Grid, but there are still lots of small missing parts, unfamiliar to many of them. In this post I will try to cover all these parts of CSS Grid. I promise you will learn new stuff!</p>
+                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on August 5th, 2019 by
+                                <span>Anne Homann</span>
+                            </div>
+                        </div>
+                        <!-- BLOG POST FOUR -->
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                            <div class="card-body">
+                                <h2 class="card-title">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on June 18th, 2019 by
+                                <span>Anne Homann</span>
+                            </div>
+                        </div>
+                        <!-- BLOG POST THREE -->
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                            <div class="card-body">
+                                <h2 class="card-title">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on May 23rd, 2019 by
+                                <span>Anne Homann</span>
+                            </div>
+                        </div>
+                        <!-- BLOG POST TWO -->
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                            <div class="card-body">
+                                <h2 class="card-title">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on January 17th, 2019 by
+                                <span>Anne Homann</span>
+                            </div>
+                        </div>
+                        <!-- BLOG POST ONE -->
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                            <div class="card-body">
+                                <h2 class="card-title">Post Title</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on November 30th, 2018 by
+                                <span>Anne Homann</span>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Sidebar Widgets Column -->
+                <sidebar class="col-md-4">
+                    <div class="card">
+                        <h5 class="card-header">Latest Posts</h5>
+                        <div class="card-body">
+                            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+                        </div>
+                    </div>
+                </sidebar>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="mainfooter">
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 social-media">
+                            <ul class="social-network social-circle">
+                                <li><a href="#" class="icoGithub" title="GitHub"><i class="fab fa-github"></i></a></li>
+                                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 copy">
+                            <p class="text-center">&copy; Copyright 2019 - <a href="mailto:annehomann@gmail.com" target="_blank">Anne Homann</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
