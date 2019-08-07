@@ -115,7 +115,7 @@ ul.timeline:before {
 }
 ul.timeline > li {
   margin: 20px 0;
-  padding-left: 20px;
+  padding: 0 20px 0 10px;
 }
 ul.timeline > li:before {
   content: ' ';
@@ -133,6 +133,7 @@ ul.timeline > li:before {
 .ed-logos {
   width: 150px;
   height: 150px;
+  padding: 10px 0 10px 0;
 }
 
 .figure {
@@ -223,10 +224,6 @@ footer a:hover {
   padding: 10px;
 }
 
-.copy p {
-  text-align: right;
-}
-
 .footer-middle {
   padding-top: 5px;
   color: white;
@@ -236,7 +233,7 @@ footer a:hover {
 /* footer social icons */
 
 .social-media {
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 15px 0;
 }
 
 ul.social-network {
@@ -290,7 +287,6 @@ ul.social-network li {
 .social-circle li i {
   margin: 0;
   line-height: 30px;
-  text-align: center;
 }
 
 .social-circle li a:hover i,
