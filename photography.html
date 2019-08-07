@@ -1,27 +1,26 @@
-<!DOCTYPE html>
+ß<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        CONTENT SECURITY POLICY
+        <!-- CONTENT SECURITY POLICY -->
         <meta http-equiv="Content-Security-Policy" content="
         default-src 'self' img/;
-        img-src 'self' http://www.w3.org; 
-        style-src 'self' https://stackpath.bootstrapcdn.com https://fonts.gstatic.com https://fonts.google.com https://fonts.googleapis.com https://*.fontawesome.com/;
+        img-src 'self' http://www.w3.org https://cdnjs.cloudflare.com; 
+        style-src 'self' https://stackpath.bootstrapcdn.com https://fonts.gstatic.com https://fonts.google.com https://fonts.googleapis.com https://*.fontawesome.com/ https://cdnjs.cloudflare.com;
         font-src 'self' https://fonts.gstatic.com https://fonts.google.com https://fonts.googleapis.com https://*.fontawesome.com/;
-        script-src 'self' https://code.jquery.com/ https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://fonts.google.com https://*.fontawesome.com/;
+        script-src 'self' 'unsafe-inline' https://code.jquery.com/ https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://fonts.google.com https://*.fontawesome.com/;
         ">
         
         <title>Anne Homann Portfolio Site</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
         <!-- CUSTOM CSS -->
         <link rel="stylesheet" href="css/style.css">
-        <!-- FONT AWESOME -->
-        <script src="https://kit.fontawesome.com/b542b19b93.js"></script>
+        <!-- LIGHTBOX -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     </head>
 
     <body>
@@ -58,70 +57,80 @@
         </header>
     
         <section class="container">
-            <div class="main">
+            <div class="main photo-gallery">
                     <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Photography</h1>
                     <hr class="mt-2 mb-5">
                   
-                    <div class="row text-center text-lg-left">
+                    <div class="row text-center text-lg-left photos">
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                        <a href="img/image01.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                              <img class="img-fluid img-thumbnail" src="img/thumb01.png" alt="">
                             </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
-                            </a>
+                          <a href="img/image02.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb02.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
-                            </a>
+                          <a href="img/image03.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb03.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
-                            </a>
+                          <a href="img/image04.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb04.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-                            </a>
+                          <a href="img/image05.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb05.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-                            </a>
+                          <a href="img/image06.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb06.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-                            </a>
+                          <a href="img/image07.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb07.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                            </a>
+                          <a href="img/image08.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb08.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-                            </a>
+                          <a href="img/image09.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb09.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-                            </a>
+                          <a href="img/image10.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb10.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-                            </a>
+                          <a href="img/image11.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb11.png" alt="">
+                          </a>
                       </div>
                       <div class="col-lg-3 col-md-4 col-6">
-                        <a href="#" class="d-block mb-4 h-100">
-                              <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
-                            </a>
+                          <a href="img/image12.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb12.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                          <a href="img/image13.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb13.png" alt="">
+                          </a>
+                      </div>
+                      <div class="col-lg-3 col-md-4 col-6">
+                          <a href="img/image14.png" data-lightbox="photos" class="d-block mb-4 h-100">
+                            <img class="img-fluid img-thumbnail" src="img/thumb14.png" alt="">
+                          </a>
                       </div>
                     </div>
                   
@@ -133,22 +142,29 @@
             <div class="footer-middle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 social-media">
+                        <div class="col-md-6 social-media">
                             <ul class="social-network social-circle">
-                            <li><a href="#" class="icoGithub" title="GitHub"><i class="fab fa-github"></i></a></li>
-                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/annehomann" class="icoGithub" title="GitHub"><i class="fab fa-github"></i></a></li>
+                                <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://au.linkedin.com/in/annehomann" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 copy">
-                            <p class="text-center">&copy; Copyright 2019 - <a href="mailto:annehomann@gmail.com" target="_blank">Anne Homann</a></p>
+                        <div class="col-md-6 copy">
+                            <p>&copy; Copyright 2019 - <a href="mailto:annehomann@gmail.com" target="_blank">Anne Homann</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/b542b19b93.js"></script>
+    <!-- LIGHTBOX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

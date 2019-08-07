@@ -56,84 +56,90 @@
     
         <section class="container">
             <div class="main">
-                <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Blog</h1>
-                <hr class="mt-2 mb-5">
                 <div class="row">
-                    <div class="col-md-8">
-                        <!-- BLOG POST FIVE - LATEST POST -->
-                        <div class="card mb-4">
-                            <img class="card-img-top img-fluid blog-pic" src="img/blog-01.jpeg" alt="illustration of a cartoon ninja">
+                    <div class="col-lg-8">
+                        <h1 class="mt-4">Becoming a CSS Grid Ninja</h1>
+                        <p class="lead">by Anne Homann</p>
+                        <hr>
+                        <p>Posted on August 5th, 2019</p>
+                        <hr>
+                        <img class="img-fluid rounded" src="img/blog-01.jpeg" alt="">
+                        <hr>
+            
+                        <!-- Post Content -->
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+            
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <footer class="blockquote-footer">Someone famous in
+                            <cite title="Source Title">Source Title</cite>
+                            </footer>
+                        </blockquote>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+            
+                        <hr>
+            
+                        <!-- COMMENTS -->
+                        <div class="card my-4">
+                            <h5 class="card-header">Leave a Comment:</h5>
                             <div class="card-body">
-                                <h2 class="card-title">Becoming a CSS Grid Ninja</h2>
-                                <p class="card-text">These days, most developers know CSS Grid, but there are still lots of small missing parts, unfamiliar to many of them. In this post I will try to cover all these parts of CSS Grid. I promise you will learn new stuff!</p>
-                                <a href="blog-post.html" class="btn btn-primary">Read More &rarr;</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                Posted on August 5th, 2019 by
-                                <span>Anne Homann</span>
+                                <form>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
                             </div>
                         </div>
-                        <!-- BLOG POST FOUR -->
-                        <div class="card mb-4">
-                            <img class="card-img-top img-fluid blog-pic" src="img/blog-02.png" alt="illustration of a cartoon dinosaur">
-                            <div class="card-body">
-                                <h2 class="card-title">The New Responsive Design Evolution</h2>
-                                <p class="card-text">Everybody knows how responsive design works, but most of us developers are still searching for the best practices to implement it. In early 2013, when I started doing responsive design, I understood very quickly that the popular methods on the web were not good for me, and from this place I began my deep journey into the responsive design world.</p>
-                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                Posted on June 18th, 2019 by
-                                <span>Anne Homann</span>
+            
+                        <!-- Single Comment -->
+                        <div class="media mb-4">
+                            <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0">Commenter Name</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                             </div>
                         </div>
-                        <!-- BLOG POST THREE -->
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/blog-03.png" alt="illustration of a cartoon monster">
-                            <div class="card-body">
-                                <h2 class="card-title">New CSS Logical Properties</h2>
-                                <p class="card-text">Most of us developers used to think in terms of left and right, top and bottom. This is because in the early days of the internet, it was meant mostly for uploading documents, and not for the complex website structures we know today. This is the reason that no one considered the needs of multiple language websites.</p>
-                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            
+                        <!-- Comment with nested comments -->
+                        <div class="media mb-4">
+                            <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0">Commenter Name</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            <div class="media mt-4">
+                                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Commenter Name</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
                             </div>
-                            <div class="card-footer text-muted">
-                                Posted on May 23rd, 2019 by
-                                <span>Anne Homann</span>
-                            </div>
-                        </div>
-                        <!-- BLOG POST TWO -->
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/blog-04.png" alt="illustration of two cartoon monsters">
-                            <div class="card-body">
-                                <h2 class="card-title">Normalize CSS or CSS Reset?!</h2>
-                                <p class="card-text">As a rule, we want an HTML elements to look the same way, independent of which browser is being used to view it. Unfortunately, this is not the case because of the way browsers run. The question of which approach to use in eliminating differences between user agent styles is an ongoing debate between Normalize CSS vs CSS Reset.</p>
-                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                Posted on January 17th, 2019 by
-                                <span>Anne Homann</span>
-                            </div>
-                        </div>
-                        <!-- BLOG POST ONE -->
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/blog-05.jpeg" alt="illustration of a rabbit">
-                            <div class="card-body">
-                                <h2 class="card-title">The Best Way to RTL Websites with Sass</h2>
-                                <p class="card-text">There are lots of ways to RTL your website on the internet, but none of them are easy to use. I developed an easy and convenient method to support multi-language website, which RTL languages ​​are also supported.</p>
-                                <a href="#" class="btn btn-primary">Read More &rarr;</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                Posted on November 30th, 2018 by
-                                <span>Anne Homann</span>
+                            <div class="media mt-4">
+                                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                                <div class="media-body">
+                                    <h5 class="mt-0">Commenter Name</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
                             </div>
                         </div>
                     </div>
-
+            
+                </div>
+            
                 <!-- Sidebar Widgets Column -->
                 <sidebar class="col-md-4">
                     <div class="card">
                         <h5 class="card-header">Latest Posts</h5>
                         <div class="card-body">
                             <ul class="latest-posts">
-                                <li class="post-list"><a href="blog-post.html">Becoming a CSS Grid Ninja</a></li>
+                                <li class="post-list"><a href="#">Becoming a CSS Grid Ninja</a></li>
                                 <li class="post-list"><a href="#">The New Responsive Design Evolution</a></li>
                                 <li class="post-list"><a href="#">New CSS Logical Properties</a></li>
                                 <li class="post-list"><a href="#">Normalize CSS or CSS Reset?!</a></li>
@@ -142,7 +148,7 @@
                         </div>
                     </div>
                 </sidebar>
-                </div>
+            
             </div>
         </section>
     

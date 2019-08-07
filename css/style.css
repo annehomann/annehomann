@@ -1,5 +1,5 @@
 /* SITE WIDE */
-h1 {
+h1,h2 {
   font-family: 'Barlow', sans-serif;
   color: #003348;
 }
@@ -14,6 +14,43 @@ h5 {
 
 .main {
   margin-top: 140px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #003348;
+  color: white;
+  border-bottom: solid 5px #2AD2C9;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.nav-item::after {
+  content:'';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #2AD2C9;
+  transition: 0.2s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #2AD2C9;
+}
+
+.nav-link {
+  padding: 15px 5px;
+  transition: 0.2s;
+}
+
+.logo {
+  width: 90px; 
+  height: 70px;
 }
 
 /* INDEX.HTML */
@@ -60,41 +97,52 @@ h5 {
   color: #2AD2C9;
 }
 
-/* NAVBAR */
-.navbar {
-  background-color: #003348;
-  color: white;
-  border-bottom: solid 5px #2AD2C9;
-  font-family: 'Barlow', sans-serif;
-  font-weight: 200;
-  font-size: 18px;
+/* ABOUT ME */
+/* Timeline */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #2AD2C9;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
 
-.nav-item::after {
-  content:'';
-  display: block;
-  width: 0px;
-  height: 2px;
-  background: #2AD2C9;
-  transition: 0.2s;
+.ed-logos {
+  width: 150px;
+  height: 150px;
 }
 
-.nav-item:hover::after {
-  width: 100%;
+.figure {
+  display: inline-block;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #2AD2C9;
-}
-
-.nav-link {
-  padding: 15px 5px;
-  transition: 0.2s;
-}
-
-.logo {
-  width: 90px; 
-  height: 70px;
+figure svg {
+  width: 75px;
+  height: 75px;
+  padding: 5px 0 5px 0;
 }
 
 /* PORTFOLIO */
@@ -173,7 +221,10 @@ footer a:hover {
 .copy {
   font-size: 12px;
   padding: 10px;
-  border-top: 1px solid #FFFFFF;
+}
+
+.copy p {
+  text-align: right;
 }
 
 .footer-middle {
@@ -181,14 +232,11 @@ footer a:hover {
   color: white;
 }
 
-
 /* SOCIAL ICONS */
 /* footer social icons */
 
 .social-media {
-  padding: 10px 0 15px 0;
-  left: 50%;
-  margin-left: -50px;
+  padding: 10px 0 15px 15px;
 }
 
 ul.social-network {
@@ -202,9 +250,6 @@ ul.social-network li {
   display: inline;
   margin: 0 5px;
 }
-
-
-/* footer social icons */
 
 .social-network a.icoGithub:hover {
   background-color: #211F1F;
