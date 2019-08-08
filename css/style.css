@@ -62,6 +62,7 @@ h5 {
   -o-background-size: cover;
 }
 
+/* Intro blurb */
 .intro {
   padding-left: 55px;
 }
@@ -79,6 +80,7 @@ h5 {
   padding-top: 15px;
 }
 
+/* Portfolio Button */
 .btn-dark {
   background-color: #003348;
   float: right;
@@ -130,12 +132,14 @@ ul.timeline > li:before {
   z-index: 400;
 }
 
+/* Education logos */
 .ed-logos {
   width: 150px;
   height: 150px;
   padding: 10px 0 10px 0;
 }
 
+/* Dev icons */
 .figure {
   display: inline-block;
 }
@@ -147,6 +151,7 @@ figure svg {
 }
 
 /* PORTFOLIO */
+/* Porftolio thumbnails */
 .hover figure img {
 	-webkit-filter: grayscale(0) blur(0);
 	filter: grayscale(0) blur(0);
@@ -172,11 +177,13 @@ figure svg {
 }
 
 /* BLOG */
+/* Blog images */
 .blog-pic {
   width: 700px;
   height: 300px;
 }
 
+/* Blog buttons */
 .btn-primary {
   background-color: #236F91;
   border-color: #236F91;
@@ -196,6 +203,11 @@ figure svg {
 }
 
 .card-footer span {
+  color: #008AD8;
+}
+
+.post-list {
+  list-style-type: circle;
   color: #008AD8;
 }
 
@@ -229,8 +241,7 @@ footer a:hover {
   color: white;
 }
 
-/* SOCIAL ICONS */
-/* footer social icons */
+/* FOOTER SOCIAL ICONS */
 .social-media {
   padding: 10px 0 15px 0;
 }
