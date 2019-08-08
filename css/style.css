@@ -146,6 +146,15 @@ ul.timeline > li:before {
   margin-bottom: 0;
 }
 
+/* CV download */
+.cv-link {
+  margin: 20px 0 0 30px;;
+}
+
+.btn-outline-primary a:hover {
+  color: #FFFFFF;
+}
+
 /* Skill headings */
 .skill-head {
   font-weight: bold;
