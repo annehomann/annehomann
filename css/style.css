@@ -89,6 +89,7 @@ h5 {
 
 .btn-dark:hover {
   background-color: #003348;
+  text-decoration: underline;
 }
 
 .btn-dark a {
