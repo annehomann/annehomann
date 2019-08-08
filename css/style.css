@@ -151,11 +151,6 @@ ul.timeline > li:before {
   margin: 20px 0 0 30px;;
 }
 
-.btn-outline-primary a:hover {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
 /* Skill headings */
 .skill-head {
   font-weight: bold;
