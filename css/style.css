@@ -139,6 +139,11 @@ ul.timeline > li:before {
   padding: 10px 0 10px 0;
 }
 
+/* Skill headings */
+.skill-head {
+  font-weight: bold;
+  text-decoration: underline;
+}
 /* Dev icons */
 .figure {
   display: inline-block;
