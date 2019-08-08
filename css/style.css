@@ -153,6 +153,7 @@ ul.timeline > li:before {
 
 .btn-outline-primary a:hover {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* Skill headings */
