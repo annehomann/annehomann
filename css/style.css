@@ -1,11 +1,11 @@
 /* SITE WIDE */
 h1,h2 {
-  font-family: 'Barlow', sans-serif;
-  color: #003348;
+  font-family: 'Bree Seri', serif;
+  color: #AF263D;
 }
 
 h5 {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Bree Seri', serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.5;
@@ -18,10 +18,10 @@ h5 {
 
 /* NAVBAR */
 .navbar {
-  background-color: #003348;
+  background-color: #AF263D;
   color: white;
-  border-bottom: solid 5px #2AD2C9;
-  font-family: 'Barlow', sans-serif;
+  border-bottom: solid 5px #002A3A;
+  font-family: 'Bree Seri', serif;
   font-weight: 200;
   font-size: 18px;
 }
@@ -31,7 +31,7 @@ h5 {
   display: block;
   width: 0px;
   height: 2px;
-  background: #2AD2C9;
+  background: #002A3A;
   transition: 0.2s;
 }
 
@@ -40,7 +40,7 @@ h5 {
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #2AD2C9;
+  color: #002A3A;
 }
 
 .nav-link {
@@ -82,13 +82,14 @@ h5 {
 
 /* Portfolio Button */
 .btn-dark {
-  background-color: #003348;
+  background-color: #AF263D;
   float: right;
   padding: 10px 60px 10px 60px;
+  border: none;
 }
 
 .btn-dark:hover {
-  background-color: #003348;
+  background-color: #AF263D;
   text-decoration: underline;
 }
 
@@ -97,7 +98,7 @@ h5 {
 }
 
 .btn-dark a:hover {
-  color: #2AD2C9;
+  color: #002A3A;
 }
 
 /* ABOUT ME */
@@ -126,7 +127,7 @@ ul.timeline > li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #2AD2C9;
+  border: 3px solid #AF263D;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -203,13 +204,13 @@ figure svg {
 
 /* Blog buttons */
 .btn-primary {
-  background-color: #236F91;
-  border-color: #236F91;
+  background-color: #AF263D;
+  border-color: #AF263D;
 }
 
 .btn-primary:hover {
-  background-color: #008AD8;
-  border-color: #008AD8;
+  background-color: #002A3A;
+  border-color: #002A3A;
 }
 
 .list-unstyled a {
@@ -226,12 +227,12 @@ figure svg {
 
 .post-list {
   list-style-type: circle;
-  color: #008AD8;
+  color: #AF263D;
 }
 
 /*FOOTER*/
 footer {
-  background: #003348;
+  background: #AF263D;
   color: white;
   margin-top: 125px;
   width: 100%;
@@ -245,7 +246,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #2AD2C9;
+  color: #002A3A;
   text-decoration: none;
 }
 
