@@ -203,13 +203,13 @@ figure svg {
 
 /* Blog buttons */
 .btn-primary {
-  background-color: #236F91;
-  border-color: #236F91;
+  background-color: #92316F;
+  border-color: #92316F;
 }
 
 .btn-primary:hover {
-  background-color: #008AD8;
-  border-color: #008AD8;
+  background-color: #E4C4D2;
+  border-color: #E4C4D2;
 }
 
 .list-unstyled a {
@@ -226,7 +226,7 @@ figure svg {
 
 .post-list {
   list-style-type: circle;
-  color: #008AD8;
+  color: #92316F;
 }
 
 /*FOOTER*/
