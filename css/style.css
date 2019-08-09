@@ -18,9 +18,9 @@ h5 {
 
 /* NAVBAR */
 .navbar {
-  background-color: #003348;
-  color: white;
-  border-bottom: solid 5px #2AD2C9;
+  background-color: #96CDBF;
+  color: #FFFFFF;
+  border-bottom: solid 5px #FF674D;
   font-family: 'Barlow', sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -31,7 +31,7 @@ h5 {
   display: block;
   width: 0px;
   height: 2px;
-  background: #2AD2C9;
+  background: #FF674D;
   transition: 0.2s;
 }
 
@@ -40,12 +40,13 @@ h5 {
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #2AD2C9;
+  color: #FF674D;
 }
 
 .nav-link {
   padding: 15px 5px;
   transition: 0.2s;
+  color: #000000;
 }
 
 .logo {
@@ -82,13 +83,14 @@ h5 {
 
 /* Portfolio Button */
 .btn-dark {
-  background-color: #003348;
+  background-color: #96CDBF;
   float: right;
   padding: 10px 60px 10px 60px;
+  border: none;
 }
 
 .btn-dark:hover {
-  background-color: #003348;
+  background-color: #96CDBF;
   text-decoration: underline;
 }
 
@@ -97,7 +99,7 @@ h5 {
 }
 
 .btn-dark a:hover {
-  color: #2AD2C9;
+  color: #FF674D;
 }
 
 /* ABOUT ME */
@@ -126,7 +128,7 @@ ul.timeline > li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #2AD2C9;
+  border: 3px solid #FF674D;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -203,13 +205,13 @@ figure svg {
 
 /* Blog buttons */
 .btn-primary {
-  background-color: #236F91;
-  border-color: #236F91;
+  background-color: #96CDBF;
+  border-color: #96CDBF;
 }
 
 .btn-primary:hover {
-  background-color: #008AD8;
-  border-color: #008AD8;
+  background-color: #FF674D;
+  border-color: #FF674D;
 }
 
 .list-unstyled a {
@@ -226,16 +228,16 @@ figure svg {
 
 .post-list {
   list-style-type: circle;
-  color: #008AD8;
+  color: #FF674D;
 }
 
 /*FOOTER*/
 footer {
-  background: #003348;
+  background: #96CDBF;
   color: white;
   margin-top: 125px;
   width: 100%;
-  border-bottom: solid 5px #2AD2C9;
+  border-bottom: solid 5px #FF674D;
 }
 
 footer a {
@@ -245,7 +247,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #2AD2C9;
+  color: #FF674D;
   text-decoration: none;
 }
 
